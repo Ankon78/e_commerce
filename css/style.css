@@ -1,52 +1,15 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    background-image: url('../image/aiub.jpg'); 
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    filter: blur;
-
-  
-
-#button1 {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: white; 
-    color: #fff; 
-    text-decoration: none; 
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    margin: 10px; 
-    transition: background-color 0.3s ease;
-}
-
-#button1:hover {
-    background-color: green; 
-    color: black;
-} 
-#button2 {
-    display: inline-block;
-    background-color: blue;
-    color: black;
-    text-decoration:none;
-}
-
-
-
-} */
-*{
+{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    
+    
 }
 
 body{
-    /* font-family: montserat; */
+    
     
 }
 nav{
@@ -71,38 +34,11 @@ label.logo{
     font-width:bold;
     float: left;
 }
-.search{
-    color:white;
-    font-size:20px;
-    line-height:50px;
-    padding:0 40px;
-    font-width:bold;
-    float: left;
-    border:none;
-    margin-top: 25px;
-    margin-bottom: 80px;
-    margin-right: 10px;
-    border-radius: 5px;
-  
 
-}
-.navSearch button{
-    float:left;
-    margin-top: 25px;
-    margin-bottom: 75px;
-    margin-right: 16px;
-    border-radius: 5px;
-    padding: 7px 5px 5px 4px;
-    background: #ddd;
-    font-size: 30px;
-    border: none;
-    cursor: pointer;
-}
-.navSearch button:hover{
-    background: #ccc;
-}
+  }
+
 nav ul{
-    float: right;
+    float: left;
     margin-right:10px;
     text-decoration: none;
     
@@ -134,4 +70,41 @@ nav ul li a{
     line-height: 30px;
     border-radius: 7px;
     
+}
+/* Add these styles to your external CSS file, e.g., styles.css */
+.navbar-brand {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+.nav-link:hover{
+    color:white !important;
+}
+.bgImage{
+    
+    /* filter: blur(1px);
+    background: fixed;
+    background-size:cover; */
+    position: relative;
+    background-size: cover; 
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    width:100%;
+
+}
+.form-control{
+    position: absolute;
+    top: 10%; /* Position the form container vertically centered */
+    left: 60%; 
+    padding: 20px;
+    max-width: 400px; 
+    width: 100%;
+}
+.card{
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+.cardContainer{
+    background: #E3F2FD;
 }
